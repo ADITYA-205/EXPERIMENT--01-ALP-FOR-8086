@@ -102,23 +102,26 @@ sub ax,[bx]
 
 ## Multiplication alp
 ```
-mov [10ebh],ax
-mov bx,25cfh
+
+mov ax,[023ah]
+mov bx,02a1h
 mul bx
+
 ```
  ## Output  
-<img width="1919" height="1014" alt="image" src="https://github.com/user-attachments/assets/a768a023-1391-4e6c-afcd-5c5028e2b3de" />
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/8609ea98-07b6-44ea-8d3b-22de7fc97efa" />
 
 
 
-## Division alp 
+
+## Division ALP 
 ```
-mov [24abh],ax
-mov bx,63bfh
+mov ax,[023ah]
+mov bx,02a1h
 div bx
 ```
 ## Output  
-<img width="1918" height="1021" alt="image" src="https://github.com/user-attachments/assets/9b395f46-1092-46c0-ab0c-0c5bf321d719" />
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/75af7ab1-e5e4-4b8b-9798-0499f235e631" />
 
 
 ## AND ALP
@@ -141,24 +144,26 @@ or ax,[bx]
 
 ## NOT ALP
 ```
-mov [15cah],ax
-not ax
+mov ax,[023ah]
+not bx
 
 ```
 ## Output
-<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/92efb305-944c-435a-b7e9-8a0e7af0f802" />
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/b24eb0d7-9ef0-41d5-b978-6d8213c8ab92" />
+
 
 
 
 ## XOR ALP
 ```
 
-mov [15cah],ax
-mov bx,34cdh
+mov ax,[023ah]
+mov bx,02a1h
 xor ax,bx
 ```
 ## Output
-<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/7b105753-b61a-41c7-85d8-530ac246d12f" />
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/73ac347a-c545-4a27-a60e-b307bf531da4" />
+
 
 ## Result :
  The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
