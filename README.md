@@ -1,8 +1,6 @@
-# EXPERIMENT--01-ALP-FOR-8086
 ### Name : ADITYA S
 ### Roll no : 212223040007
-### Date of experiment : 18-08-2025
-
+# EXPERIMENT 01: ALP FOR 8086
 
 
 
@@ -79,81 +77,88 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
+## Addition ALP 
 ```
-mov al,74h
-mov bl,69h
-add al,bl
+mov ax,10abh
+mov bx,20cdh
+add ax,bx
 ```
 
 
 ## Output  
- <img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/08cdaba4-a180-468b-b61e-38aa4b2d1e81" />
+<img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/a06643ef-d213-4012-9be6-c77d3ec27d4a" />
 
-## Subtraction   of 8 bit numbers  ALP 
+
+## Subtraction ALP 
  ```
-mov al,74h
-mov bl,69h
-sub al,bl
+
+mov ax,10abh
+mov bx,20cdh
+sub ax,[bx]
+
 ```
 ## Output  
-<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/38366fc3-a77a-4701-b2e4-9b8bf194169c" />
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/e131fd0f-319f-4763-8c4f-95278ea6dcbf" />
 
 ## Multiplication alp
 ```
-mov al,74h
-mov bl,69h
-mul bl
+mov [10ebh],ax
+mov bx,25cfh
+mul bx
 ```
  ## Output  
-<img width="1919" height="1015" alt="image" src="https://github.com/user-attachments/assets/de06d4a4-19e2-420c-9b7b-b581c34477b9" />
+<img width="1919" height="1014" alt="image" src="https://github.com/user-attachments/assets/a768a023-1391-4e6c-afcd-5c5028e2b3de" />
+
 
 
 ## Division alp 
 ```
-mov al,74h
-mov bl,69h
-div bl
+mov [24abh],ax
+mov bx,63bfh
+div bx
 ```
 ## Output  
-<img width="1919" height="1010" alt="image" src="https://github.com/user-attachments/assets/7d55efd2-fd91-4908-9725-68a1b37ead0b" />
+<img width="1918" height="1021" alt="image" src="https://github.com/user-attachments/assets/9b395f46-1092-46c0-ab0c-0c5bf321d719" />
 
-## AND of 8 bit numbers ALP
+
+## AND ALP
 ```
-mov al,74h
-mov bl,69h
-and al,bl
+mov ax,15cah
+mov bx,18edh
+and ax,bx
 ```
 ## Output
-<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/cd492b4a-e02b-4f69-924f-580242c0e3c3" />
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/b620845b-62c6-446a-9d00-21f5ff5f329c" />
 
-## OR of 8 bit numbers ALP
+## OR ALP
 ```
-mov al,74h
-mov bl,69h
-or al,bl
+mov ax,15cah
+mov bx,18edh
+or ax,[bx]
 ```
 ## Output
-<img width="1919" height="1013" alt="image" src="https://github.com/user-attachments/assets/48829f40-ec04-45a5-a359-31ae32b1f469" />
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/59d1093d-d869-4a4c-8289-8ce68de841ed" />
 
-## NOT of 8 bit numbers ALP
+## NOT ALP
 ```
-mov al,74h
-mov bl,69h
-not al,bl
+mov [15cah],ax
+not ax
+
 ```
 ## Output
-<img width="1919" height="1009" alt="image" src="https://github.com/user-attachments/assets/5d1859d5-7c42-4f9c-abaa-0b417fc25278" />
+<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/92efb305-944c-435a-b7e9-8a0e7af0f802" />
 
 
-## XOR of 8 bit numbers ALP
+
+## XOR ALP
 ```
-mov al,74h
-mov bl,69h
-xor al,bl
+
+mov [15cah],ax
+mov bx,34cdh
+xor ax,bx
 ```
 ## Output
-<img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/98ffe11b-ed93-4fde-96ec-dfdf7fdc6df8" />
+<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/7b105753-b61a-41c7-85d8-530ac246d12f" />
 
 ## Result :
  The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
