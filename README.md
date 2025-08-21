@@ -103,25 +103,25 @@ sub ax,[bx]
 ## Multiplication alp
 ```
 
-mov ax,[023ah]
+mov ax,023ah
 mov bx,02a1h
 mul bx
 
 ```
  ## Output  
-<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/8609ea98-07b6-44ea-8d3b-22de7fc97efa" />
+<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/2fbb46fd-d4be-411e-a057-0c94cc856644" />
 
 
 
 
 ## Division ALP 
 ```
-mov ax,[023ah]
+mov ax,023ah
 mov bx,02a1h
 div bx
 ```
 ## Output  
-<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/75af7ab1-e5e4-4b8b-9798-0499f235e631" />
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/07e86287-4db9-438d-a32d-c55df2ba808c" />
 
 
 ## AND ALP
@@ -144,12 +144,12 @@ or ax,[bx]
 
 ## NOT ALP
 ```
-mov ax,[023ah]
+mov ax,023ah
 not bx
 
 ```
 ## Output
-<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/b24eb0d7-9ef0-41d5-b978-6d8213c8ab92" />
+<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/f966089f-1587-44c2-9e02-e031f6375bf6" />
 
 
 
@@ -157,12 +157,12 @@ not bx
 ## XOR ALP
 ```
 
-mov ax,[023ah]
+mov ax,023ah
 mov bx,02a1h
 xor ax,bx
 ```
 ## Output
-<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/73ac347a-c545-4a27-a60e-b307bf531da4" />
+<img width="1919" height="1013" alt="image" src="https://github.com/user-attachments/assets/eb32b154-294a-4e47-a8bd-bf26b617da87" />
 
 
 ## Result :
