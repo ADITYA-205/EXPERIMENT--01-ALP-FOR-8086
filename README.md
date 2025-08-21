@@ -79,9 +79,13 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition ALP 
 ```
+org 100h
+
 mov ax,10abh
 mov bx,20cdh
 add ax,bx
+
+ret
 ```
 
 
@@ -91,22 +95,26 @@ add ax,bx
 
 ## Subtraction ALP 
  ```
+org 100h
 
 mov ax,10abh
 mov bx,20cdh
 sub ax,[bx]
 
+ret
 ```
 ## Output  
 <img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/e131fd0f-319f-4763-8c4f-95278ea6dcbf" />
 
 ## Multiplication alp
 ```
+org 100h
 
 mov ax,023ah
 mov bx,02a1h
 mul bx
 
+ret
 ```
  ## Output  
 <img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/2fbb46fd-d4be-411e-a057-0c94cc856644" />
@@ -116,9 +124,13 @@ mul bx
 
 ## Division ALP 
 ```
+org 100h
+
 mov ax,023ah
 mov bx,02a1h
 div bx
+
+ret
 ```
 ## Output  
 <img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/07e86287-4db9-438d-a32d-c55df2ba808c" />
@@ -126,26 +138,38 @@ div bx
 
 ## AND ALP
 ```
+org 100h
+
 mov ax,15cah
 mov bx,18edh
 and ax,bx
+
+ret
 ```
 ## Output
 <img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/b620845b-62c6-446a-9d00-21f5ff5f329c" />
 
 ## OR ALP
 ```
+org 100h
+
 mov ax,15cah
 mov bx,18edh
 or ax,[bx]
+
+ret
 ```
 ## Output
 <img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/59d1093d-d869-4a4c-8289-8ce68de841ed" />
 
 ## NOT ALP
 ```
+org 100h
+
 mov ax,023ah
 not bx
+
+ret
 
 ```
 ## Output
@@ -156,10 +180,13 @@ not bx
 
 ## XOR ALP
 ```
+org 100h
 
 mov ax,023ah
 mov bx,02a1h
 xor ax,bx
+
+ret
 ```
 ## Output
 <img width="1919" height="1013" alt="image" src="https://github.com/user-attachments/assets/eb32b154-294a-4e47-a8bd-bf26b617da87" />
